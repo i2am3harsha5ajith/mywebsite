@@ -1,0 +1,43 @@
+/* Common styles for all pages */
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif ;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(211, 218, 224);
+}
+img {
+    width: 400px;
+    height: 200px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+nav li {
+    float: left;
+    margin-right: 10px;
+}
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
